@@ -4,6 +4,16 @@
 
  
 """
+2022.08.02
+3 container 3 switch, topo is link
+拓樸可查看 /examples/Network_Topology/飲料食品加工廠-虛擬圖.jpg
+            c1
+          /  |     \
+        /    |       \
+      /      |        \
+    s3------s4-------s5
+     |       |       |
+    d1       d2     plc
 
 執行拓樸方法: sudo python3 Scada_Topology.py
 
