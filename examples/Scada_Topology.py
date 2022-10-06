@@ -58,8 +58,8 @@ def Scada_Network_Topology():
     c1=RemoteController('c1',ip='192.168.20.134',port=6653)
     net.addController(c1)
     #Add Docker
-    d1 = net.addDocker('d1',ip="192.168.3.11/24",defaultRoute="via 192.168.3.254",dimage="softplc2.plc.student:latest")
-    d2 = net.addDocker('d2',ip="192.168.3.12/24",defaultRoute="via 192.168.3.254",dimage="softplc2.plc.student")
+    d1 = net.addDocker('d1',ip="192.168.3.11/24",defaultRoute="via 192.168.3.254",dimage="mfthomps/softplc2.plc.student:latest")
+    d2 = net.addDocker('d2',ip="192.168.3.12/24",defaultRoute="via 192.168.3.254",dimage="mfthomps/softplc2.plc.student:latest")
     # d2 = net.addDocker('d2',ip="192.168.3.12/24",defaultRoute="via 192.168.3.254",dimage="ubuntu:trusty")
     #取得OvS
     OvS3=net.get('OvS3')
