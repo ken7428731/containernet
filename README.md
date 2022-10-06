@@ -58,7 +58,7 @@ enp8s0f1 實體介面卡為 連接PLC(FX5U-32MR/ES)(Beverage Injection)。
 7. 編譯完後，先點選再點Go to Dashboard按鈕，在選左邊的 Start PLC 即可完成啟動。  
 另外一台OpenPLC2手法也類似。  
 
-注意
+注意(Note)
 =======
 Scada_Topology.py 此程式有綁定兩張網卡(enp7s0f0、enp8s0f1)，如果沒有兩張網卡請到程式註解 # 71行~80行，或修改其他網卡。  
 
